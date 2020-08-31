@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+	<!--Google Play Store-->
+	<addon id="plugin.program.android.launch.playstore" version="1.0" name="Google Play Store" provider-name="InvisibleQuantum">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py"></extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="de_DE">Google Play Store</summary>
+			<summary lang="en_GB">Google Play Store</summary>
+			<summary lang="en_US">Google Play Store</summary>
+			<description lang="de_DE">Startet den Google Play Store unter Android</description>
+			<description lang="en_GB">Launch the Google Play Store on Android</description>
+			<description lang="en_US">Launch the Google Play Store on Android</description>
+			<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+			<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+			<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+			<platform>android</platform>
+			<source>https://github.com/InvisibleQuantum/repository.quantumrepo.android/plugin.program.android.launch.playstore/</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.png</fanart>
+				<screenshot>resources/fanart.png</screenshot>
+				<screenshot>resources/fanart.png</screenshot>
+				<screenshot>resources/fanart.png</screenshot>
+			</assets>
+			<size>-</size>
+			<path>plugin.program.android.launch.playstore/plugin.program.android.launch.playstore-1.0.zip</path>
+		</extension>
+	</addon>
+</addons>
