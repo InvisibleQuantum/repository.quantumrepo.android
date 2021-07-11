@@ -14,9 +14,9 @@
 		<description lang="de_DE">Startet Twitch unter Android</description>
 		<description lang="en_GB">Launch Twitch on Android</description>
 		<description lang="en_US">Launch Twitch on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>

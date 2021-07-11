@@ -15,9 +15,9 @@
 		<description lang="de_DE">Startet Disney+ unter Android</description>
 		<description lang="en_GB">Launch Disney+ on Android</description>
 		<description lang="en_US">Launch Disney+ on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -44,9 +44,9 @@
 		<description lang="de_DE">Startet Joyn unter Android</description>
 		<description lang="en_GB">Launch Joyn on Android</description>
 		<description lang="en_US">Launch Joyn on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -73,9 +73,9 @@
 		<description lang="de_DE">Startet Netflix unter Android</description>
 		<description lang="en_GB">Launch Netflix on Android</description>
 		<description lang="en_US">Launch Netflix on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -102,9 +102,38 @@
 		<description lang="de_DE">Startet den Google Play Store unter Android</description>
 		<description lang="en_GB">Launch the Google Play Store on Android</description>
 		<description lang="en_US">Launch the Google Play Store on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.primevideo"
+		name="Prime Video"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Prime Video</summary>
+		<summary lang="en_GB">Prime Video</summary>
+		<summary lang="en_US">Prime Video</summary>
+		<description lang="de_DE">Startet Prime Video unter Android</description>
+		<description lang="en_GB">Launch Prime Video on Android</description>
+		<description lang="en_US">Launch Prime Video on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -131,9 +160,9 @@
 		<description lang="de_DE">Startet Twitch unter Android</description>
 		<description lang="en_GB">Launch Twitch on Android</description>
 		<description lang="en_US">Launch Twitch on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -160,9 +189,9 @@
 		<description lang="de_DE">Startet YouTube unter Android</description>
 		<description lang="en_GB">Launch YouTube on Android</description>
 		<description lang="en_US">Launch YouTube on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -189,9 +218,9 @@
 		<description lang="de_DE">Startet YouTube Music unter Android</description>
 		<description lang="en_GB">Launch YouTube Music on Android</description>
 		<description lang="en_US">Launch YouTube Music on Android</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -218,9 +247,9 @@
 		<description lang="de_DE">Startet YouTube Music TV unter Android TV</description>
 		<description lang="en_GB">Launch YouTube Music TV on Android TV</description>
 		<description lang="en_US">Launch YouTube Music TV on Android TV</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -247,9 +276,9 @@
 		<description lang="de_DE">Startet YouTube TV unter Android TV</description>
 		<description lang="en_GB">Launch YouTube TV on Android TV</description>
 		<description lang="en_US">Launch YouTube TV on Android TV</description>
-		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo.android/issues/</disclaimer>
 		<platform>android</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
