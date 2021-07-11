@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.quantumrepo.android"
+		name="QuantumRepo Android"
+		version="0.1.3"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository" name="QuantumRepo Android">
+		<info>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/addons.xml.md5</checksum>
+		<datadir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/</datadir>
+		<artdir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/</artdir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">InvisibleQuantum Kodi Repository für Android</summary>
+		<summary lang="en_GB">InvisibleQuantum Kodi Repository for Android</summary>
+		<summary lang="en_US">InvisibleQuantum Kodi Repository for Android</summary>
+		<description lang="de_DE">InvisibleQuantum Kodi Repository für Android</description>
+		<description lang="en_GB">InvisibleQuantum Kodi Repository for Android</description>
+		<description lang="en_US">InvisibleQuantum Kodi Repository for Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.android.launch.youtubemusic"
+		name="YouTube Music"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">YouTube Music</summary>
+		<summary lang="en_GB">YouTube Music</summary>
+		<summary lang="en_US">YouTube Music</summary>
+		<description lang="de_DE">Startet YouTube Music unter Android</description>
+		<description lang="en_GB">Launch YouTube Music on Android</description>
+		<description lang="en_US">Launch YouTube Music on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>

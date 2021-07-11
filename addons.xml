@@ -1,32 +1,333 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<!--Google Play Store-->
-	<addon id="plugin.program.android.launch.playstore" version="1.0" name="Google Play Store" provider-name="InvisibleQuantum">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0"/>
-		</requires>
-		<extension point="xbmc.python.script" library="addon.py"></extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="de_DE">Google Play Store</summary>
-			<summary lang="en_GB">Google Play Store</summary>
-			<summary lang="en_US">Google Play Store</summary>
-			<description lang="de_DE">Startet den Google Play Store unter Android</description>
-			<description lang="en_GB">Launch the Google Play Store on Android</description>
-			<description lang="en_US">Launch the Google Play Store on Android</description>
-			<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
-			<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-			<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
-			<platform>android</platform>
-			<source>https://github.com/InvisibleQuantum/repository.quantumrepo.android/plugin.program.android.launch.playstore/</source>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.png</fanart>
-				<screenshot>resources/fanart.png</screenshot>
-				<screenshot>resources/fanart.png</screenshot>
-				<screenshot>resources/fanart.png</screenshot>
-			</assets>
-			<size>-</size>
-			<path>plugin.program.android.launch.playstore/plugin.program.android.launch.playstore-1.0.zip</path>
-		</extension>
-	</addon>
+<addon id="plugin.program.android.launch.disneyplus"
+		name="Disney+"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Disney+</summary>
+		<summary lang="en_GB">Disney+</summary>
+		<summary lang="en_US">Disney+</summary>
+		<description lang="de_DE">Startet Disney+ unter Android</description>
+		<description lang="en_GB">Launch Disney+ on Android</description>
+		<description lang="en_US">Launch Disney+ on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.joyn"
+		name="Joyn"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Joyn</summary>
+		<summary lang="en_GB">Joyn</summary>
+		<summary lang="en_US">Joyn</summary>
+		<description lang="de_DE">Startet Joyn unter Android</description>
+		<description lang="en_GB">Launch Joyn on Android</description>
+		<description lang="en_US">Launch Joyn on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.netflix"
+		name="Netflix"
+		version="1.2"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Netflix</summary>
+		<summary lang="en_GB">Netflix</summary>
+		<summary lang="en_US">Netflix</summary>
+		<description lang="de_DE">Startet Netflix unter Android</description>
+		<description lang="en_GB">Launch Netflix on Android</description>
+		<description lang="en_US">Launch Netflix on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.playstore"
+		name="Google Play Store"
+		version="1.2"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Google Play Store</summary>
+		<summary lang="en_GB">Google Play Store</summary>
+		<summary lang="en_US">Google Play Store</summary>
+		<description lang="de_DE">Startet den Google Play Store unter Android</description>
+		<description lang="en_GB">Launch the Google Play Store on Android</description>
+		<description lang="en_US">Launch the Google Play Store on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.twitch"
+		name="Twitch"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Twitch</summary>
+		<summary lang="en_GB">Twitch</summary>
+		<summary lang="en_US">Twitch</summary>
+		<description lang="de_DE">Startet Twitch unter Android</description>
+		<description lang="en_GB">Launch Twitch on Android</description>
+		<description lang="en_US">Launch Twitch on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.youtube"
+		name="YouTube"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">YouTube</summary>
+		<summary lang="en_GB">YouTube</summary>
+		<summary lang="en_US">YouTube</summary>
+		<description lang="de_DE">Startet YouTube unter Android</description>
+		<description lang="en_GB">Launch YouTube on Android</description>
+		<description lang="en_US">Launch YouTube on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.youtubemusic"
+		name="YouTube Music"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">YouTube Music</summary>
+		<summary lang="en_GB">YouTube Music</summary>
+		<summary lang="en_US">YouTube Music</summary>
+		<description lang="de_DE">Startet YouTube Music unter Android</description>
+		<description lang="en_GB">Launch YouTube Music on Android</description>
+		<description lang="en_US">Launch YouTube Music on Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.youtubemusictv"
+		name="YouTube Music TV"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">YouTube Music TV</summary>
+		<summary lang="en_GB">YouTube Music TV</summary>
+		<summary lang="en_US">YouTube Music TV</summary>
+		<description lang="de_DE">Startet YouTube Music TV unter Android TV</description>
+		<description lang="en_GB">Launch YouTube Music TV on Android TV</description>
+		<description lang="en_US">Launch YouTube Music TV on Android TV</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.android.launch.youtubetv"
+		name="YouTube TV"
+		version="1.0"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+	<extension point="xbmc.python.script" library="addon.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">YouTube TV</summary>
+		<summary lang="en_GB">YouTube TV</summary>
+		<summary lang="en_US">YouTube TV</summary>
+		<description lang="de_DE">Startet YouTube TV unter Android TV</description>
+		<description lang="en_GB">Launch YouTube TV on Android TV</description>
+		<description lang="en_US">Launch YouTube TV on Android TV</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://youtube.com/InvisibleQuantum/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.quantumrepo"
+		name="QuantumRepo"
+		version="0.3.1"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository" name="QuantumRepo">
+		<info compressed="false">https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/</datadir>
+		<artdir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/</artdir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">InvisibleQuantum Kodi Repository</summary>
+		<summary lang="en_GB">InvisibleQuantum Kodi Repository</summary>
+		<summary lang="en_US">InvisibleQuantum Kodi Repository</summary>
+		<description lang="de_DE">InvisibleQuantum Kodi Repository</description>
+		<description lang="en_GB">InvisibleQuantum Kodi Repository</description>
+		<description lang="en_US">InvisibleQuantum Kodi Repository</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.quantumrepo.android"
+		name="QuantumRepo Android"
+		version="0.1.3"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository" name="QuantumRepo Android">
+		<info>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/addons.xml.md5</checksum>
+		<datadir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/</datadir>
+		<artdir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo.android/master/</artdir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">InvisibleQuantum Kodi Repository für Android</summary>
+		<summary lang="en_GB">InvisibleQuantum Kodi Repository for Android</summary>
+		<summary lang="en_US">InvisibleQuantum Kodi Repository for Android</summary>
+		<description lang="de_DE">InvisibleQuantum Kodi Repository für Android</description>
+		<description lang="en_GB">InvisibleQuantum Kodi Repository for Android</description>
+		<description lang="en_US">InvisibleQuantum Kodi Repository for Android</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<platform>android</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
 </addons>

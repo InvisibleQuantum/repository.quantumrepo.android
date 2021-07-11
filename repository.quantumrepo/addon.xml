@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.quantumrepo"
+		name="QuantumRepo"
+		version="0.3.1"
+		provider-name="InvisibleQuantum">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository" name="QuantumRepo">
+		<info compressed="false">https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/</datadir>
+		<artdir>https://raw.githubusercontent.com/InvisibleQuantum/repository.quantumrepo/master/</artdir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">InvisibleQuantum Kodi Repository</summary>
+		<summary lang="en_GB">InvisibleQuantum Kodi Repository</summary>
+		<summary lang="en_US">InvisibleQuantum Kodi Repository</summary>
+		<description lang="de_DE">InvisibleQuantum Kodi Repository</description>
+		<description lang="en_GB">InvisibleQuantum Kodi Repository</description>
+		<description lang="en_US">InvisibleQuantum Kodi Repository</description>
+		<disclaimer lang="de_DE">Fehler oder andere Anfragen hier melden: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_GB">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<disclaimer lang="en_US">Report bugs or other requests here: https://github.com/InvisibleQuantum/repository.quantumrepo/issues/</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+			<screenshot>resources/fanart.png</screenshot>
+		</assets>
+	</extension>
+</addon>
